@@ -4,6 +4,7 @@ from django.db import models
 class User(models.Model):
     name = models.CharField(max_length=20)
     surname = models.CharField(max_length=20)
+    enabled = models.BooleanField
     balance = models.FloatField
 
 
@@ -16,8 +17,8 @@ class Car(models.Model):
 class Ride(models.Model):
     date = models.DateField
     length = models.IntegerField
-    car = models.ForeignKey(Car, related_name='rides')
-    user = models.ForeignKey(User, related_name='rides')
+    car = models.ForeignKey(Car, related_name='rides', on_delete=models.CASCADE)
+    users = models.ManyToManyField(User)
 
 
 class Refuel(models.Model):
