@@ -1,0 +1,10 @@
+{
+   "app" : {
+      "name" : "Fuel Up",
+      "version" : "0.0.3"
+   },
+   "user" : {
+      "name" : "Paweł",
+      "role" : "admin"
+   }
+}

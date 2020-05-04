@@ -13,10 +13,6 @@ span, p, i, b, u, a {
   supported by Chrome, Opera and Firefox */
 }
 
-.container h1{
-  margin-bottom: 0;
-}
-
-.container h6{
-  margin-top: 0;
+[disabled]{
+  pointer-events: none;
 }
