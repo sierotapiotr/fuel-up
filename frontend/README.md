@@ -1,4 +1,4 @@
-# frontend
+# Fuel-up
 
 ## Project setup
 ```
