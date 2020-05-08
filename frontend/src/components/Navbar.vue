@@ -1,20 +1,22 @@
 <template>
 	<nav class="navbar navbar-dark bg-dark">
 		<a class="navbar-brand" href="#">{{ brand }}</a>
+		<button class="btn btn-link" data-toggle="dropdown" role="button">
+			<i class="fas fa-user-circle text-white"></i>
+		</button>
+		<div class="dropdown-menu dropdown-menu-right">
+			<a href="#" class="btn dropdown-item" type="button">Settings</a>
+		</div>
 	</nav>
 </template>
 
 <script>
-    export default {
-        name: "Navbar",
-        data() {
-            return {
-                brand: "Fuel-up"
-            }
-        }
-    }
+	export default {
+		name: "Navbar",
+		data(){
+			return {
+				brand: "Fuel-up"
+			}
+		}
+	}
 </script>
-
-<style scoped>
-
-</style>
