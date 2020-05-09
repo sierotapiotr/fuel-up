@@ -1,6 +1,5 @@
 <template>
 	<div>
-		<Navbar />
 		<form method="POST" action="" novalidate>
 			<div class="form-group">
 				<label for="refuelUser">Osoba tankująca</label>
@@ -46,13 +45,7 @@
 </template>
 
 <script>
-	import Navbar from "../components/Navbar";
 	export default {
 		name: "Refuel",
-		components: { Navbar }
 	}
 </script>
-
-<style scoped>
-
-</style>
