@@ -1,6 +1,6 @@
 <template>
 	<nav class="navbar navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">{{ brand }}</a>
+		<router-link class="navbar-brand" to="/">{{ brand }}</router-link>
 		<button class="btn btn-link" data-toggle="dropdown" role="button">
 			<i class="fas fa-user-circle text-white"></i>
 		</button>

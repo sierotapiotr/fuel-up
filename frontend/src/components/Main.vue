@@ -26,30 +26,12 @@
 				</table>
 			</div>
 		</div>
-		<div class="row fixed-bottom bg-dark text-light">
-			<div class="col-6">
-				<div class="d-block py-4 my-2 text-center">
-					<a href="refuel" class="align-middle text-light h1">
-						<i class="fas fa-gas-pump"></i>
-					</a>
-					<p>Tankowanie</p>
-				</div>
-			</div>
-			<div class="col-6">
-				<div class="d-block py-4 my-2 text-center">
-					<a href="trip" class="align-middle text-light h1">
-						<i class="fas fa-car"></i>
-					</a>
-					<p>Przejazd</p>
-				</div>
-			</div>
-		</div>
 	</div>
 </template>
 
 <script>
 	export default {
-		name: "Home"
+		name: "Main"
 	}
 </script>
 
