@@ -17,7 +17,7 @@
 						<option value="1">{car}</option>
 					</select>
 				</div>
-				<p class="text-muted">Typ paliwa:</p>
+				<p class="text-muted">Typ paliwa</p>
 				<div class="btn-group btn-group-toggle w-100 mb-3" role="group" data-toggle="buttons" disabled>
 					<label class="btn btn-outline-secondary w-50">
 						<input type="radio" name="fuelType" id="1" disabled>Benzyna/Olej
