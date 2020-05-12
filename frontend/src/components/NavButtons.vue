@@ -10,7 +10,7 @@
 		</div>
 		<div class="col-6">
 			<div class="d-block py-4 my-2 text-center">
-				<router-link to="/trips" class="align-middle text-light h1">
+				<router-link to="/ride" class="align-middle text-light h1">
 					<i class="fas fa-car"></i>
 				</router-link>
 				<p>Przejazd</p>
