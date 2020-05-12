@@ -20,7 +20,3 @@
 		name: "NavButtons"
 	}
 </script>
-
-<style scoped>
-
-</style>
