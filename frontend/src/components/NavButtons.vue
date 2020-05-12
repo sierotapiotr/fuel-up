@@ -1,20 +1,16 @@
 <template>
 	<div class="row fixed-bottom bg-dark text-light">
 		<div class="col-6">
-			<div class="d-block py-4 my-2 text-center">
-				<router-link to="/refuel" class="align-middle text-light h1">
-					<i class="fas fa-gas-pump"></i>
-				</router-link>
-				<p>Tankowanie</p>
-			</div>
+			<router-link to="/refuel" class="d-block py-4 my-2 text-center align-middle text-light">
+				<i class="fas fa-gas-pump fa-3x"></i>
+				<p class="mt-2">Tankowanie</p>
+			</router-link>
 		</div>
 		<div class="col-6">
-			<div class="d-block py-4 my-2 text-center">
-				<router-link to="/trips" class="align-middle text-light h1">
-					<i class="fas fa-car"></i>
-				</router-link>
-				<p>Przejazd</p>
-			</div>
+			<router-link to="/trips" class="d-block py-4 my-2 text-center align-middle text-light">
+				<i class="fas fa-car fa-3x"></i>
+				<p class="mt-2">Przejazd</p>
+			</router-link>
 		</div>
 	</div>
 </template>
