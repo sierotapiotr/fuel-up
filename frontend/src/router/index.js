@@ -4,6 +4,7 @@ import Error from '../views/Error'
 import Home from '../views/Home.vue'
 import Refuel from '../views/Refuel'
 import Ride from '../views/Ride'
+import Transaction from '../views/Transaction'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ const routes = [
 		path: '/ride',
 		name: 'Ride',
 		component: Ride
+	},
+	{
+		path: '/transaction',
+		name: 'Transaction',
+		component: Transaction
 	},
 	{
 		path: '*',
