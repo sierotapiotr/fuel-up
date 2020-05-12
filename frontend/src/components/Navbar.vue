@@ -6,6 +6,7 @@
 		</button>
 		<div class="dropdown-menu dropdown-menu-right">
 			<a href="#" class="btn dropdown-item" type="button">Settings</a>
+			<router-link to="/transaction" class="btn dropdown-item" type="button">Transaction</router-link>
 		</div>
 	</nav>
 </template>
