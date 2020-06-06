@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'fuelup',
         'USER': 'root',
         'PASSWORD': 'W7bMzFgVYQh7N65Z',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '13306'
     }
 }
